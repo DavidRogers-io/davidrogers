@@ -1,0 +1,12 @@
+.ProjectDetails {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+}
+
+.Project {
+  min-height: 100vh;
+}
+
+.Project .ProjectDetails a {
+  margin: 0 0 0 32px;
+}

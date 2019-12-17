@@ -1,0 +1,35 @@
+.Footer {
+  min-height: 100vh;
+  background-color: #000000;
+}
+
+.FooterGroup {
+  padding-top: 10%;
+}
+
+.Footer h2 {
+  color: #ffffff;
+}
+
+.Footer .Button {
+  font-weight: 800;
+  color: #000000;
+  background-color: #ffffff;
+  border: none;
+  padding: 16px 32px;
+  margin: 120px 0;
+  cursor: pointer;
+}
+
+.Footer a {
+  font-size: 16px;
+  line-height: 1.2;
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-block;
+  margin: 16px 0 0 32px;
+}
+
+.Signature {
+  margin-top: 200px;
+}
