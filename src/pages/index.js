@@ -1,9 +1,9 @@
 import React from "react"
-import Project from "..//components/project"
-import Nav from "..//components/nav"
-import Footer from "..//components/footer"
-import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Layout from "../components/layout"
+import Nav from "..//components/nav"
+import Project from "..//components/project"
+import Footer from "..//components/footer"
 import MEMS from "../images/mems.jpg"
 import GAMMA from "../images/mems.jpg"
 

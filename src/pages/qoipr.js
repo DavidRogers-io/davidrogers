@@ -2,17 +2,17 @@ import React from "react"
 import SEO from "../components/seo"
 import Layout from "../components/layout"
 import Nav from "..//components/nav"
+import Footer from "..//components/footer"
 
-const NotFoundPage = () => (
+const QOIPR = () => (
   <Layout>
-    <SEO title="404: Not found" />
+    <SEO title="QOIPR" />
     <div className="Hero">
       <Nav />
-      <div className="HeroGroup">
-        <h1>Page Not Found</h1>
-      </div>
+      <div className="HeroGroup"></div>
     </div>
+    <Footer />
   </Layout>
 )
 
-export default NotFoundPage
+export default QOIPR

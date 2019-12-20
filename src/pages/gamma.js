@@ -1,8 +1,8 @@
 import React from "react"
+import SEO from "../components/seo"
+import Layout from "../components/layout"
 import Nav from "..//components/nav"
 import Footer from "..//components/footer"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
 
 const GAMMA = () => (
   <Layout>
