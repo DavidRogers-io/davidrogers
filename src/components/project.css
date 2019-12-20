@@ -1,12 +1,15 @@
-.ProjectDetails {
-  display: grid;
-  grid-template-columns: repeat(2, 50%);
-}
-
 .Project {
   min-height: 100vh;
 }
 
-.Project .ProjectDetails a {
-  margin: 0 0 0 32px;
+.ProjectGroup {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.ProjectDetails {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  align-items: flex-end;
+  margin-bottom: 16px;
 }

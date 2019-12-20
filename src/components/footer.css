@@ -4,32 +4,26 @@
 }
 
 .FooterGroup {
-  padding-top: 10%;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding-top: 120px;
 }
 
 .Footer h2 {
   color: #ffffff;
-}
-
-.Footer .Button {
-  font-weight: 800;
-  color: #000000;
-  background-color: #ffffff;
-  border: none;
-  padding: 16px 32px;
-  margin: 120px 0;
-  cursor: pointer;
+  margin-bottom: 16px;
 }
 
 .Footer a {
-  font-size: 16px;
-  line-height: 1.2;
   color: #ffffff;
-  text-decoration: none;
-  display: inline-block;
-  margin: 16px 0 0 32px;
+}
+
+.Footer .Button {
+  color: #000000;
+  background-color: #ffffff;
+  margin-top: 10vh;
 }
 
 .Signature {
-  margin-top: 200px;
+  margin-top: 30vh;
 }

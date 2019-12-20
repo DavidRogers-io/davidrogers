@@ -14,7 +14,9 @@ const Footer = props => (
       <a className="Button" href="https://www.linkedin.com/in/davidrogerz/">
         Get In Touch
       </a>
-      <Link to="/about/">Learn more about me</Link>
+      <Link className="NavLink" to="/about/">
+        Learn more about me
+      </Link>
       <p className="Signature">
         Designed and developed by David Rogers in San Francisco, California
       </p>
