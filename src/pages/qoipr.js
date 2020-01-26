@@ -7,8 +7,8 @@ import Footer from "..//components/footer"
 const QOIPR = () => (
   <Layout>
     <SEO title="QOIPR" />
+    <Nav />
     <div className="Hero">
-      <Nav />
       <div className="HeroGroup"></div>
     </div>
     <Footer />

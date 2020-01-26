@@ -1,5 +1,10 @@
 .Nav {
-  margin: 32px 0;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 32px 32px;
+}
+
+.NavGroup{
   display: grid;
   grid-template-columns: repeat(2, 10% 90%);
   align-items: center;
@@ -13,7 +18,8 @@
   margin: 0 0 0 32px;
 }
 
-.Logo {
+.NavLogo{
   max-height: 48px;
   max-width: 48px;
+  margin: 0;
 }

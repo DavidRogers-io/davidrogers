@@ -1,15 +1,19 @@
 .Project {
-  min-height: 100vh;
-}
-
-.ProjectGroup {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 60px 32px;
 }
 
 .ProjectDetails {
   display: grid;
   grid-template-columns: repeat(2, 50%);
+  grid-column-gap: 32px;
   align-items: flex-end;
   margin-bottom: 16px;
+}
+
+@media all and (max-width: 1023px) {
+  .ProjectDetails {
+    display: block;
+  }
 }

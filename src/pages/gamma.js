@@ -7,8 +7,8 @@ import Footer from "..//components/footer"
 const GAMMA = () => (
   <Layout>
     <SEO title="GAMMA" />
+    <Nav />
     <div className="Hero">
-      <Nav />
       <div className="HeroGroup"></div>
     </div>
     <Footer />

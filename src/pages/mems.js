@@ -7,8 +7,8 @@ import Footer from "..//components/footer"
 const MEMS = () => (
   <Layout>
     <SEO title="MEMS" />
+    <Nav />
     <div className="Hero">
-      <Nav />
       <div className="HeroGroup"></div>
     </div>
     <Footer />

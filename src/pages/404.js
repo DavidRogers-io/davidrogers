@@ -6,8 +6,8 @@ import Nav from "..//components/nav"
 const NotFoundPage = () => (
   <Layout>
     <SEO title="404: Not found" />
+    <Nav />
     <div className="Hero">
-      <Nav />
       <div className="HeroGroup">
         <h1>Page Not Found</h1>
       </div>

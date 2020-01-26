@@ -1,12 +1,12 @@
 .Footer {
-  min-height: 100vh;
   background-color: #000000;
 }
 
 .FooterGroup {
-  margin: 0 auto;
+  min-height: calc(100vh - 240px);
   max-width: 1200px;
-  padding-top: 120px;
+  margin: 0 auto;
+  padding: 120px 32px;
 }
 
 .Footer h2 {
@@ -25,5 +25,5 @@
 }
 
 .Signature {
-  margin-top: 30vh;
+  padding-top: 30vh;
 }

@@ -10,8 +10,8 @@ import GAMMA from "../images/mems.jpg"
 const IndexPage = () => (
   <Layout>
     <SEO title="Portfolio" />
+    <Nav />
     <div className="Hero">
-      <Nav />
       <div className="HeroGroup">
         <h1>
           David
@@ -33,28 +33,24 @@ const IndexPage = () => (
         </a>
       </div>
     </div>
-    <div className="Projects">
-      <div className="ProjectGroup">
-        <Project
-          title="MEMS"
-          description="The messaging platform powering enterprise and government."
-          button="mems"
-          image={MEMS}
-        />
-        <Project
-          title="GAMMA"
-          description="Trusted mobile messaging and workflow integrations."
-          button="gamma"
-          image={GAMMA}
-        />
-        <Project
-          title="QOIPR"
-          description="The all-in-one reselling platform solution for SMB"
-          button="qoipr"
-          image={GAMMA}
-        />
-      </div>
-    </div>
+    <Project
+      title="MEMS"
+      description="The messaging platform powering enterprise and government."
+      button="mems"
+      image={MEMS}
+    />
+    <Project
+      title="GAMMA"
+      description="Trusted mobile messaging and workflow integrations."
+      button="gamma"
+      image={GAMMA}
+    />
+    <Project
+      title="QOIPR"
+      description="The all-in-one reselling platform solution for SMB"
+      button="qoipr"
+      image={GAMMA}
+    />
     <Footer />
   </Layout>
 )
