@@ -43,7 +43,7 @@ const IndexPage = () => (
       title="GAMMA"
       description="Trusted mobile messaging and workflow integrations."
       button="gamma"
-      image={MEMS}
+      image={GAMMA}
     />
     {/*
     <Project
