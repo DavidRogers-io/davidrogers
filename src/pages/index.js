@@ -4,8 +4,8 @@ import Layout from "../components/layout"
 import Nav from "..//components/nav"
 import Project from "..//components/project"
 import Footer from "..//components/footer"
-import MEMS from "../images/mems.jpg"
-import GAMMA from "../images/gamma.jpg"
+import Mems from "../images/mems.jpg"
+import Gamma from "../images/gamma.jpg"
 
 const IndexPage = () => (
   <Layout>
@@ -37,13 +37,13 @@ const IndexPage = () => (
       title="MEMS"
       description="The messaging platform powering enterprise and government."
       button="mems"
-      image={MEMS}
+      image={Mems}
     />
     <Project
       title="GAMMA"
       description="Trusted mobile messaging and workflow integrations."
       button="gamma"
-      image={GAMMA}
+      image={Gamma}
     />
     {/*
     <Project
