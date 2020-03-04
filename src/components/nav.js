@@ -8,15 +8,17 @@ const Nav = props => (
   <div className="Nav">
     <div className="NavGroup">
       <Link className="NavLogo" to="/">
-        <img src={Logo} alt="" />
+        <img src={Logo} alt="David Rogers home page" />
       </Link>
       <div className="NavRight">
         <Link className="NavLink" to="/">
           Portfolio
         </Link>
+        {/*
         <Link className="NavLink" to="/about/">
           About
         </Link>
+        */}
         <a className="NavLink" href={Resume}>
           Resume
         </a>

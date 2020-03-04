@@ -12,7 +12,7 @@ const Project = props => (
       <Link to={props.button}>View Case Study</Link>
     </div>
     <Link to={props.button}>
-      <img src={props.image} alt="" />
+      <img src={props.image} alt="View project case study" />
     </Link>
   </div>
 )

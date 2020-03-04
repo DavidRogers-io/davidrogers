@@ -1,19 +1,16 @@
 .Footer {
   background-color: #000000;
-}
-
-.FooterGroup {
-  min-height: calc(100vh - 240px);
-  max-width: 1200px;
-  margin: 0 auto;
   padding: 120px 32px;
 }
 
-.Footer h2 {
-  color: #ffffff;
-  margin-bottom: 16px;
+.FooterGroup {
+  position: relative;
+  margin: 0 auto;
+  min-height: calc(100vh - 240px);
+  max-width: 1200px;
 }
 
+.Footer h2,
 .Footer a {
   color: #ffffff;
 }
@@ -21,9 +18,16 @@
 .Footer .Button {
   color: #000000;
   background-color: #ffffff;
-  margin-top: 10vh;
+  margin-top: 120px;
 }
 
 .Signature {
-  padding-top: 30vh;
+  position: absolute;
+  bottom: 0;
+}
+
+@media all and (max-width: 1200px) {
+  .FooterGroup {
+    min-height: 540px;
+  }
 }

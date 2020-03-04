@@ -5,7 +5,7 @@ import Nav from "..//components/nav"
 import Project from "..//components/project"
 import Footer from "..//components/footer"
 import MEMS from "../images/mems.jpg"
-import GAMMA from "../images/mems.jpg"
+import GAMMA from "../images/gamma.jpg"
 
 const IndexPage = () => (
   <Layout>
@@ -45,12 +45,14 @@ const IndexPage = () => (
       button="gamma"
       image={GAMMA}
     />
+    {/*
     <Project
       title="QOIPR"
       description="The all-in-one reselling platform solution for SMB"
       button="qoipr"
       image={GAMMA}
     />
+    */}
     <Footer />
   </Layout>
 )

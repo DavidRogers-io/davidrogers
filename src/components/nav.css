@@ -23,3 +23,14 @@
   max-width: 48px;
   margin: 0;
 }
+
+@media screen and (max-width: 414px){
+  .NavGroup{
+    display: grid;
+    grid-template-columns: repeat(2, 10% 90%);
+  }
+  
+  .NavLink {
+    margin: 0 0 0 16px;
+  }
+}

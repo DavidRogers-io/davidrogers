@@ -1,7 +1,8 @@
 .Project {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 60px 32px;
+  margin-bottom: 128px;
+  padding: 0px 32px;
 }
 
 .ProjectDetails {
