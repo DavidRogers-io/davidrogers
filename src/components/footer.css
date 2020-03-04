@@ -27,7 +27,12 @@
 }
 
 @media all and (max-width: 1200px) {
+  .Footer {
+    padding: 64px 32px;
+  }
+  
   .FooterGroup {
     min-height: 540px;
   }
 }
+
