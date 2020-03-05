@@ -20,7 +20,7 @@ const Footer = props => (
       </Link>
       
       <p className="Signature">
-        Designed and developed by David Rogers in San Francisco, California
+        Designed and developed by David Rogers in San Francisco, California.
       </p>
     </div>
   </div>
