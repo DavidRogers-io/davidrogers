@@ -5,7 +5,7 @@ import Nav from "..//components/nav"
 import Project from "..//components/project"
 import Footer from "..//components/footer"
 import Mems from "../images/mems.jpg"
-import Gamma from "../images/gamma.jpg"
+import Gamma from "../images/mems.jpg"
 
 const IndexPage = () => (
   <Layout>
