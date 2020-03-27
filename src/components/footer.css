@@ -1,6 +1,6 @@
 .Footer {
   background-color: #000000;
-  padding: 120px 32px;
+  padding: 128px 32px;
 }
 
 .FooterGroup {
@@ -22,6 +22,7 @@
 }
 
 .Signature {
+  color: #ffffff;
   position: absolute;
   bottom: 0;
 }

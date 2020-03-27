@@ -3,6 +3,7 @@ import SEO from "../components/seo"
 import Layout from "../components/layout"
 import Nav from "..//components/nav"
 import Footer from "..//components/footer"
+import ProjectGAMMA from "../images/gamma.jpg"
 
 const GAMMA = () => (
   <Layout>

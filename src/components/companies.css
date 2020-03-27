@@ -1,0 +1,21 @@
+.Companies {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 128px;
+}
+
+.CompaniesGroup {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-column-gap: 32px;
+  margin-bottom: 16px;
+}
+
+@media all and (max-width: 1200px) {
+  .Companies {
+    margin-bottom: 64px;
+  }
+  .CompaniesGroup {
+    display: block;
+  }
+}

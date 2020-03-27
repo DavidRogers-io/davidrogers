@@ -1,0 +1,31 @@
+.Testimonial {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 128px;
+}
+
+.TestimonialGroup {
+  display: grid;
+  grid-template-columns: repeat(2, 50% calc(50% - 32px));
+  grid-column-gap: 32px;
+}
+
+.Testimony {
+  margin-bottom: 32px;
+}
+
+#TestimonyPosition {
+  color: #999999;
+  font-weight: 800;
+  display: inline-block;
+}
+
+@media all and (max-width: 1200px) {
+  .Testimonial {
+    margin: 0 auto;
+    margin-bottom: 64px;
+  }
+  .TestimonialGroup {
+    display: block;
+  }
+}

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Muli:800,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Muli:400,800,900&display=swap");
 
 body {
   font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -7,7 +7,11 @@ body {
   padding: 0;
 }
 
-h1, h2, h3, p, a{
+h1,
+h2,
+h3,
+p,
+a {
   margin-block-start: 0em;
   margin-block-end: 0em;
   margin-inline-start: 0em;
@@ -41,9 +45,10 @@ h3 {
 }
 
 p {
-  font-weight: 800;
-  font-size: 20px;
-  color: #888888;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #000000;
 }
 
 a {
@@ -62,7 +67,6 @@ img {
 }
 
 .Hero {
-
 }
 
 .HeroGroup {
@@ -70,6 +74,12 @@ img {
   margin-top: 128px;
   padding: 0 32px;
   min-height: calc(100vh - 232px);
+  max-width: 1200px;
+}
+
+.Group {
+  margin: 0 auto;
+  padding: 0 32px;
   max-width: 1200px;
 }
 
@@ -85,6 +95,17 @@ img {
 
 .Button:hover {
   opacity: 0.8;
+}
+
+#HeroImg {
+  width: 100%;
+  margin: 0 auto 64px auto;
+}
+
+#FeatureImg {
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 128px;
 }
 
 #CompanyLink {
@@ -105,6 +126,7 @@ img {
 
   h2 {
     font-size: 48px;
+    margin-bottom: 32px;
   }
 
   h3 {
@@ -113,18 +135,24 @@ img {
 
   p {
     font-size: 16px;
+    margin-bottom: 0px;
   }
 
-  a{
+  a {
     font-size: 16px;
+    margin-bottom: 0px;
   }
 
   #CompanyLink {
     font-size: 24px;
   }
+
+  #FeatureImg {
+    margin-bottom: 64px;
+  }
 }
 
-@media all and (max-width: 414px){
+@media all and (max-width: 414px) {
   .HeroGroup {
     margin-top: 16px;
     min-height: 640px;
@@ -146,11 +174,15 @@ img {
     font-size: 16px;
   }
 
-  a{
+  a {
     font-size: 16px;
   }
 
   #CompanyLink {
     font-size: 24px;
+  }
+
+  #FeatureImg {
+    margin-bottom: 64px;
   }
 }

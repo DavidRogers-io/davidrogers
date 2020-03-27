@@ -5,7 +5,7 @@ import "./footer.css"
 const Footer = props => (
   <div className="Footer">
     <div className="FooterGroup">
-      <h2>Let's Connect.</h2>
+      <h2>Let's Connect</h2>
       <h3>
         I'm always eager to discuss design, technology and business. Let's
         nurture your ideas, tackle challenging problems and enrich people's
