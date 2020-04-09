@@ -34,7 +34,7 @@ h1 {
 h2 {
   font-weight: 900;
   font-size: 48px;
-  color: #000000;
+  color: #888888;
   line-height: 1;
 }
 
@@ -64,6 +64,8 @@ a:hover {
 
 img {
   width: 100%;
+  margin: 0 auto;
+  margin-bottom: 128px;
 }
 
 .Hero {
@@ -83,6 +85,14 @@ img {
   max-width: 1200px;
 }
 
+.Group h1 {
+  margin-bottom: 16px;
+}
+
+.Group h3 {
+  margin-bottom: 32px;
+}
+
 .Button {
   font-weight: 800;
   color: #ffffff;
@@ -99,7 +109,8 @@ img {
 
 #HeroImg {
   width: 100%;
-  margin: 0 auto 64px auto;
+  margin: 0 auto;
+  margin-bottom: 128px;
 }
 
 #FeatureImg {

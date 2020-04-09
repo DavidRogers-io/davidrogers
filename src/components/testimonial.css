@@ -14,8 +14,12 @@
   margin-bottom: 32px;
 }
 
+#TestimonyName, #TestimonyPosition{
+  margin-bottom: 0px;
+}
+
 #TestimonyPosition {
-  color: #999999;
+  color: #888888;
   font-weight: 800;
   display: inline-block;
 }
