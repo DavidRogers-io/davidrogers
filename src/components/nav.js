@@ -14,11 +14,11 @@ const Nav = props => (
         <Link className="NavLink" to="/">
           Portfolio
         </Link>
-        
+
         <Link className="NavLink" to="/about/">
           About
         </Link>
-        
+
         <a className="NavLink" href={Resume}>
           Resume
         </a>

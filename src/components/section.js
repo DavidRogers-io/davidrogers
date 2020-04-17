@@ -10,6 +10,8 @@ const Section = props => (
         <p>{props.text2}</p>
         <p>{props.text3}</p>
         <p>{props.text4}</p>
+        <p>{props.text5}</p>
+        <p>{props.text6}</p>
       </div>
     </div>
   </div>

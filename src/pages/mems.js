@@ -6,6 +6,9 @@ import Footer from "..//components/footer"
 import Section from "../components/section"
 import Testimonial from "..//components/testimonial"
 import ProjectMEMS from "../images/mems.jpg"
+import Awards from "../images/awards.jpg"
+import Companies from "../images/companies.jpg"
+import MEMSWhiteboarding from "../images/memswhiteboarding.jpg"
 
 const MEMS = () => (
   <Layout>
@@ -27,13 +30,31 @@ const MEMS = () => (
     </div>
     <div className="Group">
       <Section
+        title="My Role"
+        text1="Since 2015 I’ve been the UX principal leading the design vision and strategy of products at Soprano Design. I’m responsible for:"
+        text2="Delivering forward-thinking, evolutionary and iterative updates that actualize to the larger vision over time."
+        text3="Implementing accessible and cohesive user experiences that are inclusive and well informed."
+        text4="Establish design systems and operations from the ground up within a new product management function and assisting executives screen product resources."
+        text5="Building relationships with cross functional global teams to lead creative and holistic thinking across diverse product releases, platforms and devices."
+        text6="Tailoring branded solutions for carrier partners, managing each of their guidelines and ensuring the continuity of their compliance needs."
+      />
+      <iframe
+        title="Soprano MEMS company video"
+        width="1200"
+        height="600"
+        src="https://www.youtube.com/embed/IDO-Mbs4UzM"
+        frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+      <Section
         title="The Need"
         text1="Complex multinational enterprise and government organisations require robust and scalable omnichannel mobile messaging capabilities meeting the highest security and compliance standards."
         text2="With a broad range of industries looking to adopt emerging communication channels for parcel deliveries through to managing national emergencies, Soprano MEMS needed to refine an accessible user experience catering to a wide range of use cases."
       />
       <img
-        src={ProjectMEMS}
-        alt="David standing at the peak of palm beach lookout in Sydney Australia"
+        src={MEMSWhiteboarding}
+        alt="Post its, sketches and diagrams showing the methods of working out MEMS"
       />
       <Section
         title="The Challenge"
@@ -44,16 +65,24 @@ const MEMS = () => (
         src={ProjectMEMS}
         alt="David standing at the peak of palm beach lookout in Sydney Australia"
       />
-      <Section title="The Solution" text1="" />
-      <img
-        src={ProjectMEMS}
-        alt="David standing at the peak of palm beach lookout in Sydney Australia"
+      <Section
+        title="The Solution"
+        text1="With our skilled cross functional and global team, we executed our design strategy by implementing a design system catering to 13 major Mobile Network Operators while undertaking a company wide rebrand. Part of this strategy was a comprehensive usability analysis of the existing system which guided us to complete WCAG 2.1 and Section 508 compliance."
+        text2="Organisations now have 6 more channels (IP, Voice, RCS, WhatsApp, WeChat and BusinessChat) and the ability to orchestrate complex omnichannel communications. These advancements gave reach to new opportunities and led to the creation of RapidAlert, a crisis communications management center capable of deploying tailored nationwide messaging."
+        text3="Our solutions weren’t limited to who could be reached by what channels we could offer, we considered how and why with new drag and drop workflow and chatbot editors. Organisations can now create and deploy intelligent chatbots that engage and consider the nature and intent of a conversation."
+        text4="The cumulation of these efforts has been a refined and accessible modern user experience resulting in 4x more organisations, 4x growth message volume and the trust of twice as many Fortune 500 companies."
       />
-      <Section title="My Role" text1="" />
-      <img
-        src={ProjectMEMS}
-        alt="David standing at the peak of palm beach lookout in Sydney Australia"
-      />
+      <iframe
+        title="Soprano MEMS Interview on Sky News"
+        width="1200"
+        height="600"
+        src="https://www.youtube.com/embed/lF1S2W6pTVw"
+        frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+      <img src={Awards} alt="Australian national export awards" />
+      <img src={Companies} alt="Companies using MEMS" />
       <Testimonial
         name1="Mark Natter"
         position1="&nbsp;Development Manager at Fluent Commerce"

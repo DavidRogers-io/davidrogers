@@ -7,6 +7,7 @@ import Section from "../components/section"
 import Testimonial from "..//components/testimonial"
 import AboutPhoto from "../images/about.jpg"
 import About2Photo from "../images/about2.jpg"
+import GAMMAConference from "../images/gammaconference.jpg"
 
 const About = () => (
   <Layout>
@@ -15,14 +16,21 @@ const About = () => (
     <div className="Hero">
       <div className="Group">
         <h1>About</h1>
+        <h3>
+          Learn about my story and what inspires me.
+        </h3>
+        <img
+        src={GAMMAConference}
+        alt="David and his colleagues at a cybersecurity conference"
+      />
       </div>
     </div>
     <div className="Group">
       <Section
         title="G'day, I'm David"
         text1="I'm a permanent resident living in San Francisco and work at Soprano Design."
-        text2="I’m from Sydney Australia and have been working professionally in design since 2009, but my passion for design and technology dates back to my childhood. I remember ordering parts and building my first PC when I was 12 and my home now resembles a Tony Starks' basement of technological creations."
-        text3="I left my life behind in Sydney and moved to San Francisco to pursue my passion for technology as it’s always been my ambition to work among the brilliant minds at the tip of the spear. I’m driven by the opportunity to make a meaningful impact on people’s lives by building the bridge between people and technology to push the world forward through design."
+        text2="I’m from Sydney Australia and have been working professionally in design since 2009, but my passion for design and technology dates back to my childhood. I remember ordering parts and building my first PC when I was 12 and now my home looks a bit like Tony Starks basement of technical projects and creations."
+        text3="I left my life behind in Sydney and moved to San Francisco to pursue my passion for technology as it’s always been my ambition to work among the brilliant minds at the tip of the spear. I’m driven by the opportunity to make a meaningful impact on people’s lives by building the bridge between people and technology improving the world we live in through design."
         text4="When I’m not designing, I'm usually out exploring the city, hiking or in the gym."
       />
       <img
