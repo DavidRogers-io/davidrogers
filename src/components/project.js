@@ -9,7 +9,7 @@ const Project = props => (
     </Link>
     <div className="ProjectDetails">
       <h3>{props.description}</h3>
-      {/*<Link to={props.button}>View Case Study</Link>*/}
+      <Link to={props.button}>View Case Study</Link>
     </div>
     <Link to={props.button}>
       <img src={props.image} alt="View project case study" />

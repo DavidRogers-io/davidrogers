@@ -9,6 +9,9 @@ import ProjectMEMS from "../images/mems.jpg"
 import Awards from "../images/awards.jpg"
 import Companies from "../images/companies.jpg"
 import MEMSWhiteboarding from "../images/memswhiteboarding.jpg"
+import MEMSDashboard from "../images/memsdashboard.jpg"
+import MEMSRapidAlert from "../images/memsrapidalert.jpg"
+import MEMSAddressBook from "../images/memsaddressbook.jpg"
 
 const MEMS = () => (
   <Layout>
@@ -61,9 +64,9 @@ const MEMS = () => (
         text1="Having achieved great success with thousands of organizations utilizing the capability of MEMS through API’s, it was time to prioritize the accessibility and user experience of platform users."
         text2="With exceptionally capable and feature rich technology being developed over 20 years a design strategy was necessary to navigate the limitations and transition to an accessible design system."
       />
-      <img
-        src={ProjectMEMS}
-        alt="David standing at the peak of palm beach lookout in Sydney Australia"
+<img
+        src={MEMSRapidAlert}
+        alt="MEMS RapidAlert before and after"
       />
       <Section
         title="The Solution"
@@ -71,6 +74,14 @@ const MEMS = () => (
         text2="Organisations now have 6 more channels (IP, Voice, RCS, WhatsApp, WeChat and BusinessChat) and the ability to orchestrate complex omnichannel communications. These advancements gave reach to new opportunities and led to the creation of RapidAlert, a crisis communications management center capable of deploying tailored nationwide messaging."
         text3="Our solutions weren’t limited to who could be reached by what channels we could offer, we considered how and why with new drag and drop workflow and chatbot editors. Organisations can now create and deploy intelligent chatbots that engage and consider the nature and intent of a conversation."
         text4="The cumulation of these efforts has been a refined and accessible modern user experience resulting in 4x more organisations, 4x growth message volume and the trust of twice as many Fortune 500 companies."
+      />
+      <img
+        src={MEMSAddressBook}
+        alt="MEMS address book before and after"
+      />
+      <img
+        src={MEMSDashboard}
+        alt="MEMS dashboard before and after"
       />
       <iframe
         title="Soprano MEMS Interview on Sky News"
