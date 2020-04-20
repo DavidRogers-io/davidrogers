@@ -5,13 +5,7 @@ import Nav from "..//components/nav"
 import Footer from "..//components/footer"
 import Section from "../components/section"
 import Testimonial from "..//components/testimonial"
-import ProjectMEMS from "../images/mems.jpg"
-import Awards from "../images/awards.jpg"
-import Companies from "../images/companies.jpg"
-import MEMSWhiteboarding from "../images/memswhiteboarding.jpg"
-import MEMSDashboard from "../images/memsdashboard.jpg"
-import MEMSRapidAlert from "../images/memsrapidalert.jpg"
-import MEMSAddressBook from "../images/memsaddressbook.jpg"
+import Image from "..//components/image"
 
 const MEMS = () => (
   <Layout>
@@ -25,10 +19,7 @@ const MEMS = () => (
           <br />
           enterprise and government.
         </h3>
-        <img
-          src={ProjectMEMS}
-          alt="David standing at the peak of palm beach lookout in Sydney Australia"
-        />
+        <Image filename="mems.jpg" alt="MEMS work and case study" />
       </div>
     </div>
     <div className="Group">
@@ -55,8 +46,8 @@ const MEMS = () => (
         text1="Complex multinational enterprise and government organisations require robust and scalable omnichannel mobile messaging capabilities meeting the highest security and compliance standards."
         text2="With a broad range of industries looking to adopt emerging communication channels for parcel deliveries through to managing national emergencies, Soprano MEMS needed to refine an accessible user experience catering to a wide range of use cases."
       />
-      <img
-        src={MEMSWhiteboarding}
+      <Image
+        filename="memswhiteboarding.jpg"
         alt="Post its, sketches and diagrams showing the methods of working out MEMS"
       />
       <Section
@@ -64,8 +55,8 @@ const MEMS = () => (
         text1="Having achieved great success with thousands of organizations utilizing the capability of MEMS through API’s, it was time to prioritize the accessibility and user experience of platform users."
         text2="With exceptionally capable and feature rich technology being developed over 20 years a design strategy was necessary to navigate the limitations and transition to an accessible design system."
       />
-<img
-        src={MEMSRapidAlert}
+      <Image
+        filename="memsrapidalert.jpg"
         alt="MEMS RapidAlert before and after"
       />
       <Section
@@ -75,12 +66,12 @@ const MEMS = () => (
         text3="Our solutions weren’t limited to who could be reached by what channels we could offer, we considered how and why with new drag and drop workflow and chatbot editors. Organisations can now create and deploy intelligent chatbots that engage and consider the nature and intent of a conversation."
         text4="The cumulation of these efforts has been a refined and accessible modern user experience resulting in 4x more organisations, 4x growth message volume and the trust of twice as many Fortune 500 companies."
       />
-      <img
-        src={MEMSAddressBook}
+      <Image
+        filename="memsaddressbook.jpg"
         alt="MEMS address book before and after"
       />
-      <img
-        src={MEMSDashboard}
+      <Image
+        filename="memsdashboard.jpg"
         alt="MEMS dashboard before and after"
       />
       <iframe
@@ -92,8 +83,8 @@ const MEMS = () => (
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
       ></iframe>
-      <img src={Awards} alt="Australian national export awards" />
-      <img src={Companies} alt="Companies using MEMS" />
+      <Image filename="awards.jpg" alt="Australian national export awards" />
+      <Image filename="companies.jpg" alt="Companies using GAMMA" />
       <Testimonial
         name1="Mark Natter"
         position1="&nbsp;Development Manager at Fluent Commerce"

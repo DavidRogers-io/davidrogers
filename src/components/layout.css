@@ -62,13 +62,12 @@ a:hover {
   opacity: 0.6;
 }
 
-img, iframe {
+.images,
+img,
+iframe {
   width: 100%;
   margin: 0 auto;
   margin-bottom: 192px;
-}
-
-.Hero {
 }
 
 .HeroGroup {
@@ -107,18 +106,6 @@ img, iframe {
   opacity: 0.8;
 }
 
-#HeroImg {
-  width: 100%;
-  margin: 0 auto;
-  margin-bottom: 192px;
-}
-
-#FeatureImg {
-  width: 100%;
-  margin: 0 auto;
-  margin-bottom: 192px;
-}
-
 #CompanyLink {
   color: #000000;
   font-weight: 800;
@@ -131,7 +118,7 @@ img, iframe {
     min-height: 640px;
   }
 
-  .ProjectDetails{
+  .ProjectDetails {
     margin-bottom: 24px;
   }
 
@@ -158,12 +145,12 @@ img, iframe {
     margin-bottom: 0px;
   }
 
-  #CompanyLink {
-    font-size: 24px;
+  .images {
+    margin-bottom: 64px;
   }
 
-  #FeatureImg {
-    margin-bottom: 64px;
+  #CompanyLink {
+    font-size: 24px;
   }
 }
 
@@ -193,11 +180,11 @@ img, iframe {
     font-size: 16px;
   }
 
-  #CompanyLink {
-    font-size: 24px;
+  .images {
+    margin-bottom: 64px;
   }
 
-  #FeatureImg {
-    margin-bottom: 64px;
+  #CompanyLink {
+    font-size: 24px;
   }
 }

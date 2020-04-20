@@ -33,7 +33,9 @@ const Testimonial = props => (
             {props.testimony3} <a href={props.linkedin}>read more</a>
           </p>
         </div>
-        <a className="Button" href={props.linkedin}>Read More</a>
+        <a className="Button" href={props.linkedin}>
+          Read More
+        </a>
       </div>
     </div>
   </div>

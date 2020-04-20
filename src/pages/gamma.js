@@ -5,12 +5,7 @@ import Nav from "..//components/nav"
 import Footer from "..//components/footer"
 import Section from "../components/section"
 import Testimonial from "..//components/testimonial"
-import ProjectGAMMA from "../images/gamma.jpg"
-import Awards from "../images/awards.jpg"
-import Companies from "../images/companies.jpg"
-import GAMMAWhiteboarding from "../images/gammawhiteboarding.jpg"
-import GAMMARegistration from "../images/gammaregistration.jpg"
-import GAMMAWorkflows from "../images/gammaworkflows.jpg"
+import Image from "..//components/image"
 
 const GAMMA = () => (
   <Layout>
@@ -23,10 +18,7 @@ const GAMMA = () => (
           Trusted mobile messaging and <br />
           workflow integrations.
         </h3>
-        <img
-          src={ProjectGAMMA}
-          alt="David standing at the peak of palm beach lookout in Sydney Australia"
-        />
+        <Image filename="gamma.jpg" alt="GAMMA work and case study" />
       </div>
     </div>
     <div className="Group">
@@ -53,8 +45,8 @@ const GAMMA = () => (
         text1="With a slew of high profile data breaches and industry figures estimating 43% of businesses experiencing a data breach in 2014, enterprise and government were searching for a secure way to communicate  in an increasingly BYOD mobile world."
         text2="Organisations reliance on managing many messaging, business process and workflow applications exacerbated the need for a single secure mobile messaging solution."
       />
-      <img
-        src={GAMMAWhiteboarding}
+      <Image
+        filename="gammawhiteboarding.jpg"
         alt="Post its, sketches and diagrams showing the methods of working out GAMMA"
       />
       <Section
@@ -62,7 +54,10 @@ const GAMMA = () => (
         text1="The consumer messaging market is highly competitive with many well funded and established applications. These applications lacked the level compliance, security, integration and performance capabilities most organizations required so we created GAMMA."
         text2="GAMMA, a greenfield project, was tasked to combine the best capabilities of consumer messaging while embedding and securing critical business processes and workflows."
       />
-      <img src={GAMMARegistration} alt="GAMMA's registration process" />
+      <Image
+        filename="gammaregistration.jpg"
+        alt="GAMMA's registration process"
+      />
       <Section
         title="The Solution"
         text1="Through rapid design sprints and feedback from the skilled global team at Soprano and our partners, GAMMA was quickly defined and fulfilled the niche hypothesized. Building an iOS and Android version of GAMMA with a consistent design language across these platforms allowed maximum reach and efficiency."
@@ -71,7 +66,7 @@ const GAMMA = () => (
         text4="Having access to advanced administrative tools, reports, pin protection, remote wipe and message expiration controls grants organizations greater visibility and control of their communications. Coupled with world-class security trusted by military and government provides peace of mind the integrity, security and confidentiality of their data."
         text5="GAMMA is trusted by the largest healthcare government agencies around the world and is now in use by 1000+ enterprise and government companies worldwide including 50+ fortune 500 companies."
       />
-      <img src={GAMMAWorkflows} alt="GAMMA's workflow process" />
+      <Image filename="gammaworkflows.jpg" alt="GAMMA's workflow process" />
       <iframe
         title="Soprano GAMMA Enterprise Messaging Workflows"
         width="1200"
@@ -81,8 +76,8 @@ const GAMMA = () => (
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
       ></iframe>
-      <img src={Awards} alt="Australian national export awards" />
-      <img src={Companies} alt="Companies using GAMMA" />
+      <Image filename="awards.jpg" alt="Australian national export awards" />
+      <Image filename="companies.jpg" alt="Companies using GAMMA" />
       <Testimonial
         name1="Mark Natter"
         position1="&nbsp;Development Manager at Fluent Commerce"
