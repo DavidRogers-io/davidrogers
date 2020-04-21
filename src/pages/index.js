@@ -4,6 +4,9 @@ import Layout from "../components/layout"
 import Nav from "..//components/nav"
 import Footer from "..//components/footer"
 import Project from "..//components/project"
+import ProjectMEMS from "../images/mems.jpg"
+import ProjectGAMMA from "../images/gamma.jpg"
+import ProjectQOIPR from "../images/qoipr.jpg"
 
 const IndexPage = () => (
   <Layout>
@@ -17,7 +20,7 @@ const IndexPage = () => (
           Rogers
         </h1>
         <h3>
-          UX / UI Designer at{" "}
+          Senior UX / UI Designer at{" "}
           <a id="CompanyLink" href="https://www.sopranodesign.com/">
             Soprano Design.
           </a>
@@ -35,21 +38,21 @@ const IndexPage = () => (
       title="MEMS"
       description="The messaging platform powering enterprise and government."
       button="mems"
-      image="mems.jpg"
+      image={ProjectMEMS}
       alt="MEMS work and case study"
     />
     <Project
       title="GAMMA"
       description="Trusted mobile messaging and workflow integrations."
       button="gamma"
-      image="gamma.jpg"
+      image={ProjectGAMMA}
       alt="GAMMA work and case study"
     />
     <Project
       title="QOIPR"
       description="The all-in-one reselling platform solution for SMB."
       button="qoipr"
-      image="qoipr.jpg"
+      image={ProjectQOIPR}
       alt="QOIPR work and case study"
     />
     <Footer />

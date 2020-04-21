@@ -61,7 +61,7 @@ const MEMS = () => (
       />
       <Section
         title="The Solution"
-        text1="With our skilled cross functional and global team, we executed our design strategy by implementing a design system catering to 13 major Mobile Network Operators while undertaking a company wide rebrand. Part of this strategy was a comprehensive usability analysis of the existing system which guided us to complete WCAG 2.1 and Section 508 compliance."
+        text1="With our skilled cross functional and global team, we executed our design strategy by implementing a responsive design system catering to 13 major Mobile Network Operators while undertaking a company wide rebrand. Part of this strategy was a comprehensive usability analysis of the existing system which guided us to complete WCAG 2.1 and Section 508 compliance."
         text2="Organisations now have 6 more channels (IP, Voice, RCS, WhatsApp, WeChat and BusinessChat) and the ability to orchestrate complex omnichannel communications. These advancements gave reach to new opportunities and led to the creation of RapidAlert, a crisis communications management center capable of deploying tailored nationwide messaging."
         text3="Our solutions weren’t limited to who could be reached by what channels we could offer, we considered how and why with new drag and drop workflow and chatbot editors. Organisations can now create and deploy intelligent chatbots that engage and consider the nature and intent of a conversation."
         text4="The cumulation of these efforts has been a refined and accessible modern user experience resulting in 4x more organisations, 4x growth message volume and the trust of twice as many Fortune 500 companies."

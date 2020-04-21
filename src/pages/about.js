@@ -24,10 +24,11 @@ const About = () => (
     <div className="Group">
       <Section
         title="G'day, I'm David"
-        text1="I'm a permanent resident living in San Francisco and work at Soprano Design."
-        text2="I’m from Sydney Australia and have been working professionally in design since 2009, but my passion for design and technology dates back to my childhood. I remember ordering parts and building my first PC when I was 12 and now my home looks a bit like Tony Starks basement of technical projects and creations."
-        text3="I left my life behind in Sydney and moved to San Francisco to pursue my passion for technology as it’s always been my ambition to work among the brilliant minds at the tip of the spear. I’m driven by the opportunity to make a meaningful impact on people’s lives by building the bridge between people and technology improving the world we live in through design."
-        text4="When I’m not designing, I'm usually out exploring the city, hiking or in the gym."
+        text1="I am a permanent resident living in San Francisco and work at Soprano Design."
+        text2="I am from Sydney Australia and have worked professionally in design since 2009, but my passion for design and technology dates back to my childhood. My childhood LEGO addiction really stepped up a notch when I was 12 and first ordered parts and built my own computer. Since then my passion for technology has led me to countless technical projects and creations and my home has grown to resemble Tony Starks basement."
+        text3="I have also had the fortune to experience growing up in Sydney Australia and Dubai United Arab Emirates. Being raised in vastly different environments, cultures and societies has instilled a broad perspective and understanding of people and behavior. My family is also based in a dozen different countries which shaped a global sense of community and has inspired me to follow my passions wherever they may lead."
+        text4="I left my life behind in Sydney and moved to San Francisco to pursue my passion for technology as my dream has been to work among the brilliant minds at the tip of the spear. I’m driven by the opportunity to make a meaningful impact on people’s lives by building the bridge between people and technology to better the world we live."
+        text5="When I’m not designing or tinkering on some personal project, I'm usually out exploring the city, hiking or in the gym."
       />
       <Image
         filename="about2.jpg"

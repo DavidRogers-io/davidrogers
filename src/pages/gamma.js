@@ -33,7 +33,7 @@ const GAMMA = () => (
       />
       <iframe
         title="Soprano GAMMA for Enterprise Mobile Messaging Security"
-        width="1200"
+        width="100%"
         height="600"
         src="https://www.youtube.com/embed/jZW8NS3_wEk"
         frameborder="0"
