@@ -1,0 +1,16 @@
+{
+  "name": "David Rogers Portfolio",
+  "short_name": "DR Portfolio",
+  "description": "David Rogers Senior UX/UI Designer at Soprano Design",
+  "start_url": "/",
+  "display": "minimal-ui",
+  "background_color": "#663399",
+  "theme_color": "#663399",
+  "icons": [
+    {
+      "src": "/images/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}

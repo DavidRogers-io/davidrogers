@@ -1,0 +1,691 @@
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[13].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"app/layout.js","import":"Inter","arguments":[{"subsets":["latin"],"display":"swap","variable":"--font-inter","weight":["400","800","900"],"preload":true,"fallback":["system-ui","arial"],"adjustFontFallback":false}],"variableName":"inter"} ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/_next/static/media/55c55f0601d81cf3.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/_next/static/media/26a46d62cd723877.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/_next/static/media/97e0cb1ae144a2a9.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/_next/static/media/581909926a08bbc8.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/_next/static/media/df0a9ae256c0569c.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/_next/static/media/8e9860b6e62d6359.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/_next/static/media/e4af272ccee01ff0.p.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(/_next/static/media/55c55f0601d81cf3.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(/_next/static/media/26a46d62cd723877.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(/_next/static/media/97e0cb1ae144a2a9.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(/_next/static/media/581909926a08bbc8.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(/_next/static/media/df0a9ae256c0569c.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(/_next/static/media/8e9860b6e62d6359.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(/_next/static/media/e4af272ccee01ff0.p.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(/_next/static/media/55c55f0601d81cf3.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(/_next/static/media/26a46d62cd723877.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(/_next/static/media/97e0cb1ae144a2a9.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(/_next/static/media/581909926a08bbc8.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(/_next/static/media/df0a9ae256c0569c.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(/_next/static/media/8e9860b6e62d6359.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(/_next/static/media/e4af272ccee01ff0.p.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}.__className_2f5332 {font-family: 'Inter', system-ui, arial;font-style: normal
+}.__variable_2f5332 {--font-inter: 'Inter', system-ui, arial
+}
+
+/*!*************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./app/globals.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************/
+/* Modern CSS Reset and Base Styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800;900&display=swap');
+
+/* Font Face Fallbacks */
+@font-face {
+  font-family: 'Inter Fallback';
+  src: local('Arial'), local('Helvetica'), local('sans-serif');
+  font-display: swap;
+  ascent-override: 90%;
+  descent-override: 22%;
+  line-gap-override: 0%;
+}
+
+/* Improved CSS Reset and Base Styles */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Screen reader only class */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+html {
+  /* Updated font stack with better fallbacks */
+  font-family: 'Inter', var(--font-inter), 'Inter Fallback', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11', "onum"; /* Inter font features */
+  font-variant-numeric: oldstyle-nums;
+}
+
+body {
+  line-height: 1.5;
+  color: #000000;
+  font-family: inherit;
+  font-weight: 400;
+}
+
+/* Typography with Improved Accessibility */
+h1,
+h2,
+h3,
+p,
+a {
+  display: block;
+  text-decoration: none;
+  line-height: 1.2;
+  margin-bottom: 8px;
+  font-family: inherit;
+}
+
+h1 {
+  font-family: 'Inter', var(--font-inter), 'Inter Fallback', sans-serif;
+  font-weight: 900;
+  font-size: clamp(3rem, 8vw, 7rem);
+  color: #000000;
+  line-height: 1;
+  margin-bottom: 32px;
+  letter-spacing: -0.02em; /* Better spacing for large text */
+}
+
+h2 {
+  font-family: 'Inter', var(--font-inter), 'Inter Fallback', sans-serif;
+  font-weight: 900;
+  font-size: clamp(2rem, 5vw, 4rem);
+  color: #666666; /* IMPROVED: Better contrast than #888888 */
+  line-height: 1;
+  letter-spacing: -0.01em;
+}
+
+h3 {
+  font-family: 'Inter', var(--font-inter), 'Inter Fallback', sans-serif;
+  font-weight: 800;
+  font-size: clamp(1.25rem, 3vw, 2rem);
+  color: #666666; /* IMPROVED: Better contrast than #888888 */
+}
+
+p {
+  font-family: 'Inter', var(--font-inter), 'Inter Fallback', sans-serif;
+  font-weight: 400;
+  font-size: clamp(1rem, 2vw, 1.125rem);
+  line-height: 1.5;
+  color: #000000;
+}
+
+a {
+  font-family: 'Inter', var(--font-inter), 'Inter Fallback', sans-serif;
+  font-weight: 800;
+  font-size: clamp(1rem, 2vw, 1.125rem);
+  color: #000000;
+  display: inline-block;
+  transition: opacity 0.2s ease-in-out;
+}
+
+a:hover {
+  opacity: 0.6;
+}
+
+/* Font loading classes for smoother transitions */
+.fonts-loaded {
+  font-family: 'Inter', var(--font-inter), sans-serif;
+}
+
+.fonts-loading {
+  font-family: 'Inter Fallback', Arial, sans-serif;
+}
+
+/* Layout Components */
+.hero {
+  margin: 0 auto;
+  margin-top: clamp(4rem, 10vh, 8rem);
+  padding: 0 32px;
+  min-height: calc(100vh - 232px);
+  max-width: 1200px;
+}
+
+.hero-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: inherit;
+}
+
+.group {
+  margin: 0 auto;
+  padding: 0 32px;
+  max-width: 1200px;
+}
+
+.group h1 {
+  margin-bottom: 16px;
+}
+
+.group h3 {
+  margin-bottom: 32px;
+}
+
+/* Buttons with Improved Focus States */
+.button {
+  font-family: 'Inter', var(--font-inter), 'Inter Fallback', sans-serif;
+  font-weight: 800;
+  color: #ffffff !important;
+  background-color: #000000;
+  border: none;
+  padding: 16px 32px;
+  cursor: pointer;
+  margin-top: 16px;
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out;
+}
+
+.button:hover {
+  opacity: 0.8;
+  transform: translateY(-1px);
+}
+
+.button:focus {
+  outline: 3px solid #0066cc; /* IMPROVED: Thicker outline */
+  outline-offset: 2px;
+}
+
+#company-link {
+  color: #000000;
+  font-family: 'Inter', var(--font-inter), 'Inter Fallback', sans-serif;
+  font-weight: 800;
+  font-size: clamp(1.25rem, 3vw, 2rem);
+}
+
+/* Navigation with Improved Focus States */
+.nav {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 32px;
+}
+
+.nav-group {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  grid-gap: 32px;
+  gap: 32px;
+}
+
+.nav-right {
+  display: flex;
+  justify-content: flex-end;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.nav-link {
+  color: #000000;
+  font-family: 'Inter', var(--font-inter), 'Inter Fallback', sans-serif;
+  font-weight: 800;
+  text-decoration: none;
+  border-radius: 4px; /* IMPROVED: Better focus shape */
+}
+
+.nav-logo {
+  display: block;
+  border-radius: 4px; /* IMPROVED: Focus state consistency */
+}
+
+.nav-logo img {
+  border-radius: 4px;
+}
+
+/* Project Components with Improved Focus States */
+.project {
+  max-width: 1200px;
+  margin: 0 auto 4rem;
+  padding: 0 32px;
+}
+
+.project-details {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-gap: 32px;
+  gap: 32px;
+  align-items: flex-end;
+  margin-bottom: 16px;
+}
+
+.project h2 {
+  color: #000000;
+  margin-bottom: 0;
+}
+
+.project-title-link,
+.project-link,
+.project-image-link {
+  color: inherit;
+  text-decoration: none;
+  border-radius: 4px; /* IMPROVED: Consistent focus styling */
+}
+
+.project-image-link {
+  display: block;
+  margin-bottom: 4rem;
+}
+
+/* IMPROVED: Better focus states for interactive elements */
+.project-image-link:focus,
+.project-title-link:focus {
+  outline: 3px solid #0066cc;
+  outline-offset: 2px;
+}
+
+.project-title-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.project-title-link h2 {
+  font-weight: 900;
+  font-size: clamp(2rem, 5vw, 4rem);
+  color: #000000;
+  line-height: 1;
+  margin-bottom: 0;
+}
+
+.project-title-link:hover h2 {
+  opacity: 0.6;
+}
+
+/* Footer */
+.footer {
+  background-color: #000000;
+  padding: clamp(4rem, 10vh, 8rem) 32px;
+  margin-top: 4rem;
+}
+
+.footer-group {
+  position: relative;
+  margin: 0 auto;
+  min-height: calc(100vh - 240px);
+  max-width: 1200px;
+}
+
+.footer h2,
+.footer a {
+  color: #ffffff;
+}
+
+.footer-button {
+  color: #000000 !important;
+  background-color: #ffffff;
+  margin-top: 2rem;
+}
+
+.footer-link {
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+.footer-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.signature {
+  color: #ffffff;
+  position: absolute;
+  bottom: 0;
+  font-size: 0.875rem;
+}
+
+/* Section Components */
+.section {
+  max-width: 1200px;
+  margin: 0 auto 4rem;
+  padding: 0 32px;
+}
+
+.section-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 32px;
+  gap: 32px;
+}
+
+.section p {
+  margin-bottom: 32px;
+}
+
+/* Testimonial Components */
+.testimonial {
+  max-width: 1200px;
+  margin: 0 auto 4rem;
+  padding: 0 32px;
+}
+
+.testimonial-group {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 32px;
+  gap: 32px;
+}
+
+.testimony {
+  margin-bottom: 32px;
+}
+
+.testimony-name {
+  font-weight: 800;
+  color: #000000;
+  margin-bottom: 4px;
+}
+
+.testimony-position {
+  color: #666666; /* IMPROVED: Better contrast */
+  font-weight: 800;
+  margin-bottom: 8px;
+  font-size: 0.9em;
+}
+
+.testimony-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-size: 0.9em;
+  color: #0066cc;
+}
+
+.testimony p:last-of-type {
+  display: inline;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .nav-right {
+    gap: 16px;
+  }
+  
+  .nav-link:nth-child(4) {
+    display: none;
+  }
+
+  .project-details,
+  .section-details,
+  .testimonial-group {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .hero {
+    margin-top: 2rem;
+    min-height: 80vh;
+  }
+
+  .footer-group {
+    min-height: 60vh;
+  }
+
+  .signature {
+    position: static;
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav,
+  .project,
+  .section,
+  .testimonial,
+  .hero,
+  .group {
+    padding: 0 16px;
+  }
+
+  .footer {
+    padding: 4rem 16px;
+  }
+}
+
+/* Accessibility Improvements */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* IMPROVED: Better focus states for accessibility */
+a:focus,
+button:focus,
+.nav-link:focus,
+.project-link:focus,
+.footer-link:focus {
+  outline: 3px solid #0066cc;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Skip link for screen readers */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 6px;
+  background: #000000;
+  color: #ffffff;
+  padding: 8px;
+  z-index: 1000;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.skip-link:focus {
+  top: 6px;
+}
+
+/* Print styles */
+@media print {
+  .nav,
+  .footer {
+    display: none;
+  }
+  
+  .button {
+    display: none;
+  }
+  
+  a {
+    color: #000000 !important;
+  }
+  
+  body {
+    font-size: 12pt;
+    line-height: 1.4;
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "name": "david-rogers-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "David Rogers Senior UX/UI Designer Portfolio",
+  "author": "David Rogers <david@davidrogers.com>",
+  "homepage": "https://davidrogers.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidrogers/portfolio.git"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "lint:fix": "next lint --fix",
+    "analyze": "ANALYZE=true npm run build",
+    "check": "npm run lint && npm run build",
+    "clean": "rm -rf .next out node_modules/.cache"
+  },
+  "dependencies": {
+    "next": "^14.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@next/bundle-analyzer": "^14.1.0",
+    "eslint": "^8.56.0",
+    "eslint-config-next": "^14.1.0"
+  },
+  "engines": {
+    "node": ">=18.17.0",
+    "npm": ">=9.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "keywords": [
+    "portfolio",
+    "ux-designer",
+    "ui-designer",
+    "nextjs",
+    "react",
+    "soprano-design",
+    "san-francisco"
+  ]
+}
