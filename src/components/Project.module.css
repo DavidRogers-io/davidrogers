@@ -1,21 +1,28 @@
-.Companies {
+.project {
   max-width: 1200px;
   margin: 0 auto;
-  margin-bottom: 128px;
+  padding: 0 32px;
 }
 
-.CompaniesGroup {
+.projectDetails {
   display: grid;
   grid-template-columns: repeat(2, 50%);
   grid-column-gap: 32px;
+  align-items: flex-end;
   margin-bottom: 16px;
 }
 
-@media all and (max-width: 1200px) {
-  .Companies {
+.project h2 {
+  color: #000;
+}
+
+@media (max-width: 1200px) {
+  .project {
     margin-bottom: 64px;
   }
-  .CompaniesGroup {
+
+  .projectDetails {
     display: block;
+    margin-bottom: 24px;
   }
 }

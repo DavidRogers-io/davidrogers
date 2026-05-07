@@ -1,27 +1,29 @@
-.Section {
+.section {
   max-width: 1200px;
   margin: 0 auto;
   margin-bottom: 192px;
 }
 
-.SectionDetails {
+.sectionDetails {
   display: grid;
   grid-template-columns: repeat(2, 50% calc(50% - 32px));
   grid-column-gap: 32px;
 }
 
-.Section p {
+.section p {
   margin-bottom: 32px;
 }
 
-@media all and (max-width: 1200px) {
-  .Section {
+@media (max-width: 1200px) {
+  .section {
     margin-bottom: 64px;
   }
-  .SectionDetails {
+
+  .sectionDetails {
     display: block;
   }
-  .Section p {
+
+  .section p {
     margin-bottom: 16px;
   }
 }
